@@ -25,3 +25,4 @@ def get_weather(city: str, api_key: str) -> dict:
 
     except requests.exceptions.RequestException:
         return {"ошибка": "Проблема с подключением"}
+    

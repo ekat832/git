@@ -24,3 +24,4 @@ def test_get_weather_invalid_key(mock_get):
     result = get_weather("Almaty", "wrong_key")
     assert "ошибка" in result
     assert result["ошибка"] == "Неверный API-ключ"
+    
